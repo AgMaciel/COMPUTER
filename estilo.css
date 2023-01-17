@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Delius&family=Indie+Flower&family=Josefin+Slab&family=Lagosta+Two&family=Merienda&family=Montserrat&family=Abrir+Sans&family=Roboto+Slab&family=Rye&family=Sniglet&family=Tangerine&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+}
+
+header,
+img {
+    width: 100%;
+    height: 380px;
+}
+
+nav {
+    background-color: rgb(21, 143, 199);
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    font: 1.2rem 'Sniglet', sans-serif;
+    text-decoration: none;
+}
+
+.menu {
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.menu:link,
+.menu:visited {
+    color: #FFF;
+}
+
+p {
+    color: rgb(10, 10, 10);
+}
+
+.menu:hover,
+.menu:active {
+    color: #3F51B5;
+}
+
+article {
+    width: 100%;
+    background-color: #FFF;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font: 3rem 'Ink Free', cursive;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font: 1.2rem 'Delius', sans-serif;
+    color: rgb(10, 10, 10);
+    text-align: justify;
+    line-height: 30px;
+}
+
+#txt-preto {
+    color: rgba(31, 16, 6, 0.808);
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    font: 3rem 'betterfly', cursive;
+    color: rgb(12, 29, 75);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/*evolução*/
+
+#sessao-evoluções {
+    background-color: #EEE;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card {
+    background-color: #FFF;
+    margin: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #CCC;
+    transition: 0.1s;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content p {
+    font: 1rem 'Roboto', sans-serif;
+    line-height: 15px;
+}
+
+h3 {
+    font: 1rem 'Kaushan Script', cursive;
+    color: #00BCD4;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.cardG1 {
+    background-color: #FFF;
+    margin: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #CCC;
+    transition: 0.1s;
+}
+
+.cardG1 p,
+a {
+    font: 1.2rem 'Sniglet', sans-serif;
+    color: #0116cf;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.card-contentG1 {
+    padding: 10px;
+}
+
+.card-contentG1 h2 {
+    font: 1rem 'Kaushan Script', cursive;
+    color: #00BCD4;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+/*video*/
+
+#secao-video {
+    text-align: center;
+}
+
+video {
+    width: 600px;
+    align-items: center;
+}
+
+
+/*sobre*/
+
+#sessao-sobre {
+    text-align: center;
+    height: 10%;
+    width: 90%;
+    display: flex;
+}
+
+.containersobre {
+    display: flex;
+}
+
+.containersobre img {
+    height: 70%;
+    width: 50%;
+}
+
+.card4 {
+    /*altura*/
+    height: 80%;
+    /*largura*/
+    width: 80%;
+}
+
+.containersobre h3 {
+    font-size: 20px;
+    text-align: center;
+    font: 'Amatic SC', cursive;
+    color: #f87e7b;
+    background-color: #FFF;
+}
+
+.containersobre p {
+    font: 1rem'Amatic SC', cursive;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.texto {
+    font-family: 'Merienda', cursive;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: 10%;
+    align-items: center;
+    padding: 5%;
+}
+
+#sessao-sobre1 {
+    height: 90%;
+    width: 90%;
+    text-align: center;
+    background-color: #FFF;
+    padding: 1%;
+}
+
+#sessao-sobre1 p {
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    color: #0116cf;
+    padding: 0%;
+}
+
+
+/*orçamento*/
+
+#secao-perfis {
+    margin: 10px;
+    background-color: #FFF;
+    height: 100%;
+}
+
+#secao-perfis img {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px 30px 30px 30px;
+}
+
+.perfil1 {
+    width: 100%;
+    height: 50%;
+}
+
+.perfil1 h3 {
+    font: 1.2rem 'Sniglet', sans-serif;
+    color: #0116cf;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.perfil2 {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+.perfil2 h3 {
+    font: 1.2rem 'Sniglet', sans-serif;
+    color: #0116cf;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.perfil3 {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+.perfil3 h3 {
+    font: 1.2rem 'Sniglet', sans-serif;
+    color: #0116cf;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.p1 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+.p2 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+.p3 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+
+/*rodape*/
+
+footer {
+    background-color: rgb(27, 17, 17);
+    padding: 15px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-top: 1px;
+}
+
+footer p {
+    text-align: center;
+    color: #FFF;
+}
+
+footer p {
+    color: #F47E7E;
+}
+
+footer p:hover {
+    color: #0116cf;
+    transition: 0s;
+}
